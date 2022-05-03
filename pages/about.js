@@ -1,6 +1,7 @@
 // Create next js pages/about.js:
 import Head from "next/head";
 import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <Head>
         <title>About</title>
       </Head>
+      <Navbar />
       <main>
         <h1>
           Ir a <Link href="/">Home</Link>
